@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'reverso'
+require 'reverso/cli'
+
+Reverso::CLI.run
+

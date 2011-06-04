@@ -1,0 +1,35 @@
+== reverso
+
+Interface for reverso.net translation service.
+
+Includes command-line tool named _reverso_.
+
+
+== Usage
+
+  require 'rubygems'
+  require 'reverso'
+  Reverso::Translator.translate('The love', :from => 'En', :to => 'German')
+
+
+== Requirements
+
+* json (tested with json-1.5.1 gem)
+
+
+== Install
+
+  gem install reverso
+
+
+== Author
+
+Iwakura Taro, taro@mail333.com
+
+
+== License
+
+Application is released under the terms of the BSD License.
+See the License file for details.
+
+
